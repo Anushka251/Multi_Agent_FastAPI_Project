@@ -3,7 +3,7 @@ from pathlib import Path
 import json
 
 import faiss
-from sentence_transformers import SentenceTransformer
+
 
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -18,6 +18,7 @@ _documents = None
 
 
 def load_vector_store():
+    from sentence_transformers import SentenceTransformer
     """Load the embedding model, FAISS index and indexed documents."""
     global _model, _index, _documents
 
