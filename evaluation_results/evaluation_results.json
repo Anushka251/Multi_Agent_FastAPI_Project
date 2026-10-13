@@ -1,0 +1,90 @@
+[
+  {
+    "Question": "How do I track my order?",
+    "System": "Baseline",
+    "Reference": "Use the tracking link in your email. Contact support with your order ID if the link does not work.",
+    "Answer": "You can contact customer support for help with your order.",
+    "BLEU": 0.0216,
+    "ROUGE-1 F1": 0.3448,
+    "ROUGE-2 F1": 0.1481,
+    "ROUGE-L F1": 0.3448,
+    "Semantic similarity": 0.6241
+  },
+  {
+    "Question": "How do I track my order?",
+    "System": "Current graph (not yet RAG)",
+    "Reference": "Use the tracking link in your email. Contact support with your order ID if the link does not work.",
+    "Answer": "Based on the available FAQ information:\n\nDocument 1: Order Tracking\nCustomers can track an order using the tracking link\nsent to their registered email address. If the link does\nnot work, contact customer support with the order ID.\n\nDocument 2: Returns\nCustomers can request a return within 7 days of delivery\nif the item meets the return policy conditions. The\ncustomer should provide the order ID and reason for return.",
+    "BLEU": 0.0784,
+    "ROUGE-1 F1": 0.3596,
+    "ROUGE-2 F1": 0.2299,
+    "ROUGE-L F1": 0.2697,
+    "Semantic similarity": 0.7134
+  },
+  {
+    "Question": "Can I return an item?",
+    "System": "Baseline",
+    "Reference": "Returns are accepted within 7 days if the conditions in the return policy are met. Provide your order ID and reason.",
+    "Answer": "Check the website for information about returns.",
+    "BLEU": 0.0045,
+    "ROUGE-1 F1": 0.1429,
+    "ROUGE-2 F1": 0.0,
+    "ROUGE-L F1": 0.1429,
+    "Semantic similarity": 0.5607
+  },
+  {
+    "Question": "Can I return an item?",
+    "System": "Current graph (not yet RAG)",
+    "Reference": "Returns are accepted within 7 days if the conditions in the return policy are met. Provide your order ID and reason.",
+    "Answer": "Based on the available FAQ information:\n\nDocument 2: Returns\nCustomers can request a return within 7 days of delivery\nif the item meets the return policy conditions. The\ncustomer should provide the order ID and reason for return.\n\nDocument 3: Refunds\nAfter an approved return is received and inspected,\nthe refund is processed to the original payment method.\nThe time taken depends on the payment provider.",
+    "BLEU": 0.0354,
+    "ROUGE-1 F1": 0.3448,
+    "ROUGE-2 F1": 0.1882,
+    "ROUGE-L F1": 0.3218,
+    "Semantic similarity": 0.8065
+  },
+  {
+    "Question": "When will I receive my refund?",
+    "System": "Baseline",
+    "Reference": "Refunds are processed after the returned item is received and inspected. The refund goes to the original payment method, and timing depends on the payment provider.",
+    "Answer": "Refunds may take some time to arrive.",
+    "BLEU": 0.0026,
+    "ROUGE-1 F1": 0.1818,
+    "ROUGE-2 F1": 0.0,
+    "ROUGE-L F1": 0.1212,
+    "Semantic similarity": 0.6622
+  },
+  {
+    "Question": "When will I receive my refund?",
+    "System": "Current graph (not yet RAG)",
+    "Reference": "Refunds are processed after the returned item is received and inspected. The refund goes to the original payment method, and timing depends on the payment provider.",
+    "Answer": "Based on the available FAQ information:\n\nDocument 3: Refunds\nAfter an approved return is received and inspected,\nthe refund is processed to the original payment method.\nThe time taken depends on the payment provider.\n\nDocument 2: Returns\nCustomers can request a return within 7 days of delivery\nif the item meets the return policy conditions. The\ncustomer should provide the order ID and reason for return.",
+    "BLEU": 0.1201,
+    "ROUGE-1 F1": 0.5217,
+    "ROUGE-2 F1": 0.3111,
+    "ROUGE-L F1": 0.4348,
+    "Semantic similarity": 0.8503
+  },
+  {
+    "Question": "I cannot access my account. What should I do?",
+    "System": "Baseline",
+    "Reference": "Use Forgot Password and follow the instructions in the email. Check your spam folder if the email does not arrive.",
+    "Answer": "Try logging in again or contact support.",
+    "BLEU": 0.0052,
+    "ROUGE-1 F1": 0.0741,
+    "ROUGE-2 F1": 0.0,
+    "ROUGE-L F1": 0.0741,
+    "Semantic similarity": 0.5236
+  },
+  {
+    "Question": "I cannot access my account. What should I do?",
+    "System": "Current graph (not yet RAG)",
+    "Reference": "Use Forgot Password and follow the instructions in the email. Check your spam folder if the email does not arrive.",
+    "Answer": "Based on the available FAQ information:\n\nDocument 4: Account Access\nIf a customer cannot sign in, they should use the\nForgot Password option and follow the email instructions.\nIf they do not receive an email, they should check spam.",
+    "BLEU": 0.0395,
+    "ROUGE-1 F1": 0.5424,
+    "ROUGE-2 F1": 0.1404,
+    "ROUGE-L F1": 0.339,
+    "Semantic similarity": 0.6422
+  }
+]

@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+.pytest_cache/
+.mypy_cache/
+.DS_Store
+ntuser.dat*
+ntuser.ini
+thumbnails/
+luxury-brand/
+node_modules/

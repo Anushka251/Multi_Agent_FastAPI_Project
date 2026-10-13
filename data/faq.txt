@@ -1,0 +1,19 @@
+Document 1: Order Tracking
+Customers can track an order using the tracking link
+sent to their registered email address. If the link does
+not work, contact customer support with the order ID.
+
+Document 2: Returns
+Customers can request a return within 7 days of delivery
+if the item meets the return policy conditions. The
+customer should provide the order ID and reason for return.
+
+Document 3: Refunds
+After an approved return is received and inspected,
+the refund is processed to the original payment method.
+The time taken depends on the payment provider.
+
+Document 4: Account Access
+If a customer cannot sign in, they should use the
+Forgot Password option and follow the email instructions.
+If they do not receive an email, they should check spam.

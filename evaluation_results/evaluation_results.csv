@@ -1,0 +1,44 @@
+﻿Question,System,Reference,Answer,BLEU,ROUGE-1 F1,ROUGE-2 F1,ROUGE-L F1,Semantic similarity
+How do I track my order?,Baseline,Use the tracking link in your email. Contact support with your order ID if the link does not work.,You can contact customer support for help with your order.,0.0216,0.3448,0.1481,0.3448,0.6241
+How do I track my order?,Current graph (not yet RAG),Use the tracking link in your email. Contact support with your order ID if the link does not work.,"Based on the available FAQ information:
+
+Document 1: Order Tracking
+Customers can track an order using the tracking link
+sent to their registered email address. If the link does
+not work, contact customer support with the order ID.
+
+Document 2: Returns
+Customers can request a return within 7 days of delivery
+if the item meets the return policy conditions. The
+customer should provide the order ID and reason for return.",0.0784,0.3596,0.2299,0.2697,0.7134
+Can I return an item?,Baseline,Returns are accepted within 7 days if the conditions in the return policy are met. Provide your order ID and reason.,Check the website for information about returns.,0.0045,0.1429,0.0,0.1429,0.5607
+Can I return an item?,Current graph (not yet RAG),Returns are accepted within 7 days if the conditions in the return policy are met. Provide your order ID and reason.,"Based on the available FAQ information:
+
+Document 2: Returns
+Customers can request a return within 7 days of delivery
+if the item meets the return policy conditions. The
+customer should provide the order ID and reason for return.
+
+Document 3: Refunds
+After an approved return is received and inspected,
+the refund is processed to the original payment method.
+The time taken depends on the payment provider.",0.0354,0.3448,0.1882,0.3218,0.8065
+When will I receive my refund?,Baseline,"Refunds are processed after the returned item is received and inspected. The refund goes to the original payment method, and timing depends on the payment provider.",Refunds may take some time to arrive.,0.0026,0.1818,0.0,0.1212,0.6622
+When will I receive my refund?,Current graph (not yet RAG),"Refunds are processed after the returned item is received and inspected. The refund goes to the original payment method, and timing depends on the payment provider.","Based on the available FAQ information:
+
+Document 3: Refunds
+After an approved return is received and inspected,
+the refund is processed to the original payment method.
+The time taken depends on the payment provider.
+
+Document 2: Returns
+Customers can request a return within 7 days of delivery
+if the item meets the return policy conditions. The
+customer should provide the order ID and reason for return.",0.1201,0.5217,0.3111,0.4348,0.8503
+I cannot access my account. What should I do?,Baseline,Use Forgot Password and follow the instructions in the email. Check your spam folder if the email does not arrive.,Try logging in again or contact support.,0.0052,0.0741,0.0,0.0741,0.5236
+I cannot access my account. What should I do?,Current graph (not yet RAG),Use Forgot Password and follow the instructions in the email. Check your spam folder if the email does not arrive.,"Based on the available FAQ information:
+
+Document 4: Account Access
+If a customer cannot sign in, they should use the
+Forgot Password option and follow the email instructions.
+If they do not receive an email, they should check spam.",0.0395,0.5424,0.1404,0.339,0.6422
